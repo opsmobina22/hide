@@ -1,0 +1,55 @@
+@import 'color';
+@import'space';
+.Features{
+    color: $text-white;
+    padding: $p-5;
+    text-align: center;
+    background-color: $bg-secondry;
+    h2{
+        font-size:$p-5;
+    }
+    .icon{
+        flex-wrap: wrap;
+        font-size: $p-5;
+        padding: $p-5;
+        display: flex;
+          #lightning{
+color: $bg-darkyellow;
+}
+#heart{
+color:$bg-primary;
+}
+#camera{
+    color: $bg-yellow;
+}
+#battery{
+    color: $bg-green;
+}
+#gem{
+    color: $text-white;
+}
+#cloud{
+    color: $bg-blue;
+}
+#globe{
+    color: $bg-darkyellow;
+}
+#jumbo{
+    color: $bg-turquoise;
+}
+#person{
+    color: $text-white;
+}
+#shield{
+    color: $bg-darkyellow;
+
+}
+#wifi{
+    color: $bg-gray;
+}
+#image{
+color: $bg-magenta;
+} 
+    }
+}
+

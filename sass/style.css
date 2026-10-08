@@ -1,0 +1,69 @@
+.Features {
+  color: #f1f1f1;
+  padding: 50px;
+  text-align: center;
+  background-color: #656565;
+}
+
+.Features h2 {
+  font-size: 50px;
+}
+
+.Features .icon {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 50px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Features .icon #lightning {
+  color: #ddcf0a;
+}
+
+.Features .icon #heart {
+  color: #f44336;
+}
+
+.Features .icon #camera {
+  color: #d7e609;
+}
+
+.Features .icon #battery {
+  color: #0c800c;
+}
+
+.Features .icon #gem {
+  color: #f1f1f1;
+}
+
+.Features .icon #cloud {
+  color: #1d8af0;
+}
+
+.Features .icon #globe {
+  color: #ddcf0a;
+}
+
+.Features .icon #jumbo {
+  color: #1df0c2;
+}
+
+.Features .icon #person {
+  color: #f1f1f1;
+}
+
+.Features .icon #shield {
+  color: #ddcf0a;
+}
+
+.Features .icon #wifi {
+  color: #aa9797;
+}
+
+.Features .icon #image {
+  color: #b91a9f;
+}
+/*# sourceMappingURL=style.css.map */
