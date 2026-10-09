@@ -1,55 +1,93 @@
 @import 'color';
 @import'space';
-.Features{
+
+
+
+
+.Features {
     color: $text-white;
     padding: $p-5;
     text-align: center;
     background-color: $bg-secondry;
-    h2{
-        font-size:$p-5;
+
+    h2 {
+        font-size: $p-5;
     }
-    .icon{
+
+    .icon {
+
         flex-wrap: wrap;
         font-size: $p-5;
         padding: $p-5;
+        margin: $mb-2;
         display: flex;
-          #lightning{
-color: $bg-darkyellow;
-}
-#heart{
-color:$bg-primary;
-}
-#camera{
-    color: $bg-yellow;
-}
-#battery{
-    color: $bg-green;
-}
-#gem{
-    color: $text-white;
-}
-#cloud{
-    color: $bg-blue;
-}
-#globe{
-    color: $bg-darkyellow;
-}
-#jumbo{
-    color: $bg-turquoise;
-}
-#person{
-    color: $text-white;
-}
-#shield{
-    color: $bg-darkyellow;
+gap: 90px;
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // margin-right: $mr-3;
 
-}
-#wifi{
-    color: $bg-gray;
-}
-#image{
-color: $bg-magenta;
-} 
+            i#lightning {
+                color: $bg-darkyellow;
+
+            }
+
+            i#heart {
+                color: $bg-primary;
+            }
+
+            i#camera {
+                color: $bg-yellow;
+            }
+
+            i#power {
+                color: $bg-green;
+            }
+            i#gem {
+            color: $text-white;
+        }
+        i#cloud {
+            color: $bg-blue;
+        }
+        i#globe {
+            color: $bg-darkyellow;
+        }
+        i#jumbo {
+            color: $bg-turquoise;
+        }
+        i#person {
+            color: $text-white;
+        }
+        i#shield {
+            color: $bg-darkyellow;
+
+        }
+        i.wifi {
+          
+            color: $bg-gray;
+            
+        }
+        i#image {
+             
+            color: $bg-magenta;
+        }
+
+        }
+
+        p {
+
+            padding: $pad-0;
+            font-size: $pad-2;
+            color: $text-white;
+            
+        }
+
     }
-}
 
+@media(max-width:600px) {
+    .Features .icon .item{
+        width: 50%;
+      
+    }
+}}
